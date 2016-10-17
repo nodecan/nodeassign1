@@ -19,7 +19,6 @@ app.post('/abcd',function(req,res){
     let lastName = req.body.lastname;
     res.send(firstName+"   "+lastName);
     res.end();
-
 });
 
 let port = process.env.PORT||3000;
